@@ -1,0 +1,91 @@
+<Window
+	x:Class="WPF_login.YouProject3Settings" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" xmlns:local="clr-namespace:WPF_login"
+	Title="Login"
+	Height="467"
+	Width="290"
+	TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+	AllowsTransparency="True"
+	WindowStyle="None"
+	WindowStartupLocation="CenterScreen"
+	Icon="images/document_config_22643.ico"
+	Background="{x:Null}"
+	x:Name="DialogHost">
+	<materialDesign:Card
+		UniformCornerRadius="15"
+		Background="{DynamicResource MaterialDesignDarkBackground}"
+		Margin="25"
+		ElevationAssist.Elevation="Dp4"
+		Foreground="#FFFFFFFF">
+		<materialDesign:DialogHost
+			Name="DialogHost"
+			CloseOnClickAway="True"
+			Click="CloseBtn_Click">
+			<StackPanel>
+				<Button
+					Name="CloseBtn"
+					Style="{StaticResource MaterialDesignIconButton}"
+					materialDesign:RippleAssist.Feedback="#FFFFB6C1"
+					Foreground="#FFFF0000"
+					materialDesign:ButtonAssist.CornerRadius="6"
+					Height="40"
+					Width="40"
+					DockPanel.Dock="Right"
+					Margin="0,10,10,0"
+					HorizontalAlignment="Right"
+					Click="tmstmp_Click">
+					<materialDesign:PackIcon
+						Kind="WindowClose"
+						VerticalAlignment="Center" />
+				</Button>
+				<Image
+					Margin="0,0,0,0"
+					Source="images/document_config_22643.ico"
+					Height="66"
+					Width="116" />
+				<TextBlock
+					Margin="0,0,0,0"
+					HorizontalAlignment="Center"
+					FontSize="22"
+					FontWeight="Bold"
+					Text="Project3 Settings"
+					Cursor="" />
+				<Separator
+					Style="{StaticResource ToolBar.SeparatorStyleKey}" />
+				<DockPanel
+					Margin="0,0,0,0">
+					<CheckBox
+						Name="tmstmp"
+						Margin="25,0,0,0"
+						Content="UPDATE TIMESTAMP COOKIES"
+						HorizontalAlignment="Left"
+						VerticalAlignment="Top"
+						Click="svfll_Click" />
+				</DockPanel>
+				<Separator
+					Style="{StaticResource ToolBar.SeparatorStyleKey}" />
+				<DockPanel
+					Margin="0,0,0,0">
+					<CheckBox
+						Name="svfll"
+						Margin="25,0,0,0"
+						Content="SAVE FULL LOG"
+						HorizontalAlignment="Left"
+						VerticalAlignment="Top"
+						Click="showlog_Click" />
+				</DockPanel>
+				<Separator
+					Style="{StaticResource ToolBar.SeparatorStyleKey}" />
+				<DockPanel
+					Margin="0,0,0,0">
+					<!--Unknown connection ID: 6-->
+					<CheckBox
+						Name="showlog"
+						Margin="25,0,0,0"
+						Content="SHOW ON RESULTS LOG"
+						HorizontalAlignment="Left"
+						VerticalAlignment="Top" />
+				</DockPanel>
+			</StackPanel>
+		</materialDesign:DialogHost>
+	</materialDesign:Card>
+</Window>

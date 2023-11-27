@@ -1,4 +1,0 @@
-C:\Users\nezar\Downloads\stuff\cracked\WPF_login\obj\Debug\WPF_login.csproj.AssemblyReference.cache
-C:\Users\nezar\Downloads\stuff\cracked\WPF_login\obj\Debug\App.g.cs
-C:\Users\nezar\Downloads\stuff\cracked\WPF_login\obj\Debug\WPF_login_MarkupCompile.cache
-C:\Users\nezar\Downloads\stuff\cracked\WPF_login\obj\Debug\WPF_login_MarkupCompile.lref
