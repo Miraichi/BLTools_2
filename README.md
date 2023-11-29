@@ -7,7 +7,7 @@ its pretty much **NOT LEGAL**
 
 ## Why
 why did i do this you may think?
-I currently am learning on how to reverse engeneer many different executables files and i want to learn on how to correctly execute these things. Not only that but i want to be able to . I am not learning reverse engeneering for the bad purpose but to simply know what to do when i get suspicious files
+I currently am learning on how to reverse engeneer many different executables files and i want to learn on how to correctly execute these things. I am not learning reverse engeneering for the bad purpose but to simply know what to do when i get suspicious files
 btw. there were no Antidebugger files whatsoever. I used dnspy for the process
 
 ---
