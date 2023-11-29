@@ -11,7 +11,7 @@ I currently am learning on how to reverse engeneer many different executables fi
 btw. there were no Antidebugger files whatsoever. I used dnspy for the process
 
 ---
-the above reason is probably only reasoning. Also I want to share my "success"
+Also I want to share my "success"
 ---
 
 # Introduction
